@@ -53,7 +53,7 @@ function App() {
             Technologies
           </span>
         </h2>
-
+{/* h2 added */}
         {loading ? (
           <p className="text-gray-500 mt-6">Loading technologies...</p>
         ) : (
