@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import TechCard from "./components/TechCard";
 import YourStack from "./components/YourStack";
 import techData from "./data/technologies.json";
+import Footer from "./components/Footer";
 
 type Tech = {
   id: string;
@@ -69,6 +70,7 @@ function App() {
             </div>
 
             <YourStack stack={stack} onRemove={handleRemove} onRemoveAll={handleRemoveAll} />
+             <Footer />
           </div>
         )}
       </section>
