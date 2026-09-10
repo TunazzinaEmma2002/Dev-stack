@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "../assets/logo-text.png";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,10 +14,7 @@ export default function Navbar() {
           </button>
 
           <div className="flex items-center gap-2">
-            <span className="text-2xl">⚡</span>
-            <span className="font-bold text-lg bg-gradient-to-r from-orange-500 via-pink-500 to-violet-600 bg-clip-text text-transparent">
-              Dev Stack
-            </span>
+            <img src={logo} alt="Dev Stack" className="h-8" />
           </div>
 
           <div className="hidden md:flex items-center gap-8">
