@@ -17,8 +17,9 @@ export default function Hero() {
           <button className="px-6 py-3 rounded-full text-white font-semibold brand-gradient">
             Explore Technologies
           </button>
-          <button className="px-6 py-3 rounded-full text-white font-semibold brand-gradient">
-          </button>
+          <button className="px-6 py-3 rounded-full font-semibold border border-gray-300 text-gray-700 hover:border-pink-400 transition">
+  Learn More
+</button>
         </div>
       </div>
 
