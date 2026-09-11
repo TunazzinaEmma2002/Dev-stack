@@ -26,10 +26,10 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center gap-3">
-            <button className="hidden sm:block text-sm font-medium text-gray-700 hover:text-pink-600">
+            <button className="px-4 py-2 rounded-full text-sm font-semibold text-white brand-gradient hover:opacity-90 transition">
               Sign In
             </button>
-            <button className="px-4 py-2 rounded-full text-sm font-semibold text-white bg-gradient-to-r from-orange-500 via-pink-500 to-violet-600 hover:opacity-90 transition">
+            <button className="px-4 py-2 rounded-full text-sm font-semibold text-white brand-gradient hover:opacity-90 transition">
               Sign Up
             </button>
           </div>

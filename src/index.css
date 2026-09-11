@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@layer utilities {
+  .brand-gradient {
+    @apply bg-gradient-to-r from-orange-500 via-pink-500 to-violet-600;
+  }
+  .brand-gradient-text {
+    @apply brand-gradient bg-clip-text text-transparent;
+  }
+}

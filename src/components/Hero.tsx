@@ -6,7 +6,7 @@ export default function Hero() {
       <div>
         <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight text-gray-900">
           Build Your Ideal{" "}
-          <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-violet-600 bg-clip-text text-transparent">
+          <span className="brand-gradient-text">
             Development Stack
           </span>
         </h1>
@@ -14,11 +14,10 @@ export default function Hero() {
           Explore frontend, backend, database and hosting options — compare them side by side and put together the stack that fits your next project.
         </p>
         <div className="mt-6 flex gap-4">
-          <button className="px-6 py-3 rounded-full text-white font-semibold bg-gradient-to-r from-orange-500 via-pink-500 to-violet-600 hover:opacity-90 transition">
+          <button className="px-6 py-3 rounded-full text-white font-semibold brand-gradient">
             Explore Technologies
           </button>
-          <button className="px-6 py-3 rounded-full font-semibold border border-gray-300 text-gray-700 hover:border-pink-400 transition">
-            Learn More
+          <button className="px-6 py-3 rounded-full text-white font-semibold brand-gradient">
           </button>
         </div>
       </div>
